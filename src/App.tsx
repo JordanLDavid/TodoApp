@@ -10,7 +10,7 @@ import Box from '@mui/material/Box'
 const LOCAL_STORAGE_KEY = 'todokey';
 
 export interface ITodo {
-    id: uuidv4;
+    id,
     todo: string;
 }
 
@@ -22,7 +22,8 @@ const darkTheme = createTheme({
 
 function App() {
   // load from local if available
-  const [todos, setTodos] = useState(JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY)) || []);
+  const storage = localStorage.getItem(LOCAL_STORAGE_KEY);
+  const [todos, setTodos] = useState(storage !== null ? JSON.parse(storage) : []);
 
   function SaveToStorage() {
     // Save Data to Local Storage in JSON format
@@ -41,7 +42,7 @@ function App() {
     SaveToStorage();
   }
 
-  function DeleteTodo(id:uuidv4) {
+  function DeleteTodo(id) {
     // Delete specified todo id
     const updatedTodos = todos.filter(todo => todo.id !== id);
     setTodos(updatedTodos);
@@ -49,7 +50,7 @@ function App() {
     SaveToStorage();
   }
   
-  function UpdateTodo(id:uuidv4, newTodo:string) {
+  function UpdateTodo(id, newTodo:string) {
     // Find specified Id and update todo 
     setTodos(todos.map((editTodo) => {
         if (editTodo.id === id) {
