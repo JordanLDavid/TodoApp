@@ -30,24 +30,20 @@ function App() {
     localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(todos));
   }
 
-  // Initialize data from storage if available
-  useEffect(() => {
-  //  LoadStorage();
-  }, [])
-
   function AddTodo(todo:ITodo) {
     // Add new Todo to todo List
     setTodos([...todos, todo]); 
-    // Save Update to storage
-    SaveToStorage();
   }
+
+  useEffect(() => {
+    // save to storage when todos list is updated
+    SaveToStorage();
+  }, [todos])
 
   function DeleteTodo(id) {
     // Delete specified todo id
     const updatedTodos = todos.filter(todo => todo.id !== id);
     setTodos(updatedTodos);
-    // save to local storage
-    SaveToStorage();
   }
   
   function UpdateTodo(id, newTodo:string) {
@@ -59,8 +55,6 @@ function App() {
         return editTodo;
       })
     );
-    // Save to storage
-    SaveToStorage();
   }
 
   return (
