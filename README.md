@@ -128,10 +128,10 @@ Project Link: [https://github.com/JordanLDavid/TodoApp](https://github.com/Jorda
 [license-url]: https://github.com/JordanLDavid/TodoApp/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/JordanLenardDavid
-[product-screenshot]: images/product-screenshot.jpg
+[product-screenshot]: images/product-screenshot.JPG
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-[Vitejs.dev]: https://img.shields.io/badge/Vitejs-35495E?style=for-the-badge&logo=vite&logoColor=white
+[Vitejs.dev]: https://img.shields.io/badge/Vitejs-20232A?style=for-the-badge&logo=vite&logoColor=61DAFB
 [Vite-url]: https://vitejs.dev/
-[MUI.com]: https://img.shields.io/badge/MUI-35495E?style=for-the-badge&logo=mui&logoColor=white
+[MUI.com]: https://img.shields.io/badge/MUI-20232A?style=for-the-badge&logo=mui&logoColor=61DAFB
 [MUI-url]: https://mui.com/
