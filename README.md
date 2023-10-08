@@ -23,8 +23,6 @@
   </p>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -46,8 +44,6 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -62,16 +58,10 @@ Features:
 
 Note: Todo list will persist in browser.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Built With
-
 * [![React][React.js]][React-url]
 * [![Vite][Vitejs.dev]][Vite-url]
 * [![MUI][MUI.com]][MUI-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
