@@ -89,9 +89,6 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    npm run dev
    ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- CONTACT -->
 ## Contact
 Project Link: [https://github.com/JordanLDavid/TodoApp](https://github.com/JordanLDavid/TodoApp)
