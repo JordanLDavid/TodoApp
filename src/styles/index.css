@@ -38,6 +38,7 @@ h1 {
 
 p {
   text-align:center;
+  display:inline;
 }
 
 button {
